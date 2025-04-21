@@ -99,7 +99,7 @@ int main(int argc, char* argv[]) {
     player_music.InitUnmute(g_screen);
     std::vector<ThreatsObjects*> threats_list = MakeThreadList();
     ExplosionObject exp_threat, exp_main;
-    if (!exp_threat.LoadImg("img//exp3.png", g_screen) || !exp_main.LoadImg("img//exp3.png", g_screen)) return -1;
+    if (!exp_threat.LoadImg("img//exp.png", g_screen) || !exp_main.LoadImg("img//exp.png", g_screen)) return -1;
     exp_threat.set_clip();
     exp_main.set_clip();
     int num_die = 0;

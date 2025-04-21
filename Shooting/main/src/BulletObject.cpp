@@ -34,7 +34,7 @@ void BulletObject::HandleMove(const int& x_border, const int& y_border)
 {
     if (bullet_dir_ == DIR_RIGHT) // Đạn bắn sang phải
     {
-        rect_.x += x_val_;
+        rect_.x += x_val_; // x(t+1) = x(t) + v_x
         if (rect_.x > x_border) // Ra khỏi biên
         {
             is_move_ = false;
@@ -42,7 +42,7 @@ void BulletObject::HandleMove(const int& x_border, const int& y_border)
     }
     else if (bullet_dir_ == DIR_LEFT) // Đạn bắn sang trái
     {
-        rect_.x -= x_val_;
+        rect_.x -= x_val_; // x(t+1) = x(t) - v_x
         if (rect_.x < 0)
         {
             is_move_ = false;

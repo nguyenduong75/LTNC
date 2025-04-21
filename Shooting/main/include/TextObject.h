@@ -38,7 +38,6 @@ namespace Menu {
     int ShowMenu(SDL_Renderer* des, TTF_Font* font); // Hiển thị menu
     int ShowRestart(SDL_Renderer* des, TTF_Font* font); // Hiển thị menu khởi động lại
     int ShowTutorial(SDL_Renderer* des, TTF_Font* font); // Hiển thị hướng dẫn
-    int ShowCre(SDL_Renderer* des, TTF_Font* font); // Hiển thị thông tin tác giả
 }
 
 #endif // TEXT_OBJECT_H_

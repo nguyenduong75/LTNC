@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1745189023 source:d:\shooting\shooting\main\main.cpp
+1745200035 source:d:\shooting\shooting\main\main.cpp
 	"CommonFunc.h"
 	"BaseObject.h"
 	<bits/stdc++.h>
@@ -397,7 +397,7 @@
 1745186798 d:\shooting\shooting\main\include\game_map.h
 	"BaseObject.h"
 
-1745186798 d:\shooting\shooting\main\include\mainobject.h
+1745193332 d:\shooting\shooting\main\include\mainobject.h
 	<vector>
 	"BaseObject.h"
 	"BulletObject.h"
@@ -415,7 +415,7 @@
 1745186798 d:\shooting\shooting\main\include\explosionobject.h
 	"BaseObject.h"
 
-1745186798 d:\shooting\shooting\main\include\textobject.h
+1745200035 d:\shooting\shooting\main\include\textobject.h
 	"BaseObject.h"
 
 1745186798 d:\shooting\shooting\main\include\playerpower.h
@@ -438,19 +438,10 @@
 	"ImpTimer.h"
 	"BaseObject.h"
 
-1745188872 source:d:\shooting\shooting\main\src\mainobject.cpp
-	"CommonFunc.h"
-	"BaseObject.h"
-	<bits/stdc++.h>
-	<windows.h>
-	"game_map.h"
+1745200035 source:d:\shooting\shooting\main\src\mainobject.cpp
 	"MainObject.h"
-	"ImpTimer.h"
-	"ThreatsObjects.h"
-	"ExplosionObject.h"
-	"TextObject.h"
-	"PlayerPower.h"
-	"Geometric.h"
+	<iostream>
+	"BaseObject.h"
 
 1745183960 source:d:\shooting\shooting\main\src\playerpower.cpp
 	"PlayerPower.h"
